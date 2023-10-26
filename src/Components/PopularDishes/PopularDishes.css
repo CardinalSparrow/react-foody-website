@@ -1,0 +1,39 @@
+.popular-dishes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 80px;
+}
+
+.popular-dishes h1 {
+  align-self: center;
+}
+
+.popular-dish {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 50px;
+  /* gap: 1rem; */
+  /* justify-content: space-between; */
+}
+
+.all-button {
+  width: 150px;
+  height: 40px;
+  align-self: center;
+  /* display: inline-block; */
+  padding: 8px 24px;
+  background: #ffb501;
+  font-size: 1.2rem;
+  color: #161616;
+  border-radius: 0.5rem;
+  border: 2px solid #ffb501;
+  margin-top: 50px;
+}
+.all-button:hover {
+  display: inline-block;
+  padding: 8px 24px;
+  background: #fcfcfc;
+  color: #161616;
+  border-radius: 0.5rem;
+}

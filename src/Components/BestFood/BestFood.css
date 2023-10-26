@@ -1,0 +1,65 @@
+.best-food {
+  padding: 100px 80px;
+  width: 100%;
+  background-color: #a9031e;
+  /* display: flex; */
+}
+
+.best-text-image {
+  display: flex;
+  justify-content: space-around;
+}
+
+.best-text {
+  max-width: 500px;
+}
+
+.best-text h1 {
+  font-size: 70px;
+  color: #fcfcfc;
+  font-weight: 600;
+}
+
+.best-text p {
+  line-height: 30px;
+  color: #fcfcfc;
+}
+
+.best-text span {
+  color: #ffb501;
+}
+
+.best-text li {
+  list-style: disc;
+  margin-left: 30px;
+  padding-top: 10px;
+  color: #fcfcfc;
+}
+
+.best-text button {
+  display: inline-block;
+  padding: 12px 48px;
+  background: #161616;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fcfcfc;
+  border-radius: 0.5rem;
+  border: 2px solid #161616;
+  transition: all 0.5s ease;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.best-text button:hover {
+  background: transparent;
+  /* color: #161616; */
+}
+
+.best-food img {
+  width: 500px;
+  margin-top: 50px;
+}
+
+/* .best-image img {
+  width: 100%;
+} */

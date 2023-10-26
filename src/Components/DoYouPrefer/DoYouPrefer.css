@@ -1,0 +1,14 @@
+.do-you-prefer {
+  margin-top: 150px;
+  /* justify-self: center; */
+}
+
+.prefer-image-text {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.prefer-text {
+  max-width: 250px;
+}
