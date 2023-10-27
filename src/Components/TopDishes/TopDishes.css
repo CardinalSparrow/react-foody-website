@@ -1,0 +1,42 @@
+.top-dishes {
+  background: #fcfcfc;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.dish {
+  display: flex;
+}
+
+#root > div > div.top-dishes > div > div:nth-child(1) > div > button {
+  color: #a9031e;
+  background: #fcfcfc;
+  border: 2px solid #a9031e;
+}
+#root > div > div.top-dishes > div > div:nth-child(2) > div > button {
+  color: #a9031e;
+  background: #fcfcfc;
+  border: 2px solid #a9031e;
+}
+#root > div > div.top-dishes > div > div:nth-child(3) > div > button {
+  color: #a9031e;
+  background: #fcfcfc;
+  border: 2px solid #a9031e;
+}
+
+#root > div > div.top-dishes > div > div:nth-child(1) > div > button:hover {
+  color: #fcfcfc;
+  background: #a9031e;
+  border: 2px solid #a9031e;
+}
+#root > div > div.top-dishes > div > div:nth-child(2) > div > button:hover {
+  color: #fcfcfc;
+  background: #a9031e;
+  border: 2px solid #a9031e;
+}
+#root > div > div.top-dishes > div > div:nth-child(3) > div > button:hover {
+  color: #fcfcfc;
+  background: #a9031e;
+  border: 2px solid #a9031e;
+}

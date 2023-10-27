@@ -43,6 +43,7 @@ const FoodDelivery = () => {
               price={type.price}
               description={type.description}
               time={type.time}
+              button={"Quick Order"}
             />
           );
         })}

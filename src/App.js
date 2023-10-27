@@ -6,6 +6,7 @@ import PopularDishes from "./Components/PopularDishes/PopularDishes";
 import BestFood from "./Components/BestFood/BestFood";
 import FoodDelivery from "./Components/FoodDelivery/FoodDelivery";
 import DoYouPrefer from "./Components/DoYouPrefer/DoYouPrefer";
+import TopDishes from "./Components/TopDishes/TopDishes";
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
       <PopularDishes />
       <BestFood />
       <FoodDelivery />
-      <DoYouPrefer/>
+      <DoYouPrefer />
+      <TopDishes />
     </div>
   );
 };

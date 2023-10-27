@@ -13,10 +13,16 @@ const DoYouPrefer = () => {
             Do You Prefer <span>Our Food?</span>
           </h1>
           <h5>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
-            harum culpa beatae voluptates optio dicta tempore reiciendis
-            accusamus molestias perspiciatis.
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            dolorem adipisci recusandae similique. Dignissimos eum totam quia,
+            atque necessitatibus dolorum labore dicta vel culpa ea ratione
+            consequatur magnam pariatur saepe."
           </h5>
+          <h3>MARK WILLOW</h3>
+          <div className="buttons">
+            <button className="video">Watch Video</button>
+            <button className="contact">Contact Us &gt;</button>
+          </div>
         </div>
       </div>
     </div>

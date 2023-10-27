@@ -7,11 +7,11 @@
 
 .best-text-image {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .best-text {
-  max-width: 500px;
+  width: 500px;
 }
 
 .best-text h1 {
@@ -55,11 +55,7 @@
   /* color: #161616; */
 }
 
-.best-food img {
+.best-image img {
   width: 500px;
   margin-top: 50px;
 }
-
-/* .best-image img {
-  width: 100%;
-} */

@@ -1,4 +1,5 @@
 .popular-dishes {
+  background: #fcfcfc;
   display: flex;
   flex-direction: column;
   justify-content: center;
