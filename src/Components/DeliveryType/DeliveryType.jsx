@@ -6,7 +6,7 @@ const DeliveryType = (props) => {
       <div className="delivery-type">
         <img src={props.image} alt=""/>
         <h5 className="type">{props.type}</h5>
-        <h5 className="type">{props.name}</h5>
+        <h5 className="name">{props.name}</h5>
         <h3 className="price">${props.price}</h3>
         <p className="description">{props.description}</p>
         <hr />

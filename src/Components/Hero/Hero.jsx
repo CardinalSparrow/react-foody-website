@@ -17,13 +17,13 @@ const Hero = () => {
             adipisicing elit. Voluptate, itaque?Lorem ipsum dolor sit amet
             consectetur adipisicing elit. Maiores, molestiae!
           </p>
-          <button class="button">Quick Order</button>
+          <button className="button">Quick Order</button>
         </div>
-        <div class="hero-image">
+        <div className="hero-image">
           <img src={hero} alt="" />
         </div>
       </div>
-      <div class="hero-small flex">
+      <div className="hero-small flex">
         <img src={hero_small} alt="" />
         <img src={hero_small} alt="" />
         <img src={hero_small} alt="" />

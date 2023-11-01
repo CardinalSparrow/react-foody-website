@@ -49,18 +49,3 @@
   justify-content: center;
   margin-top: 50px;
 }
-
-#root > div > div.food-delivery > div.delivery-types > div:nth-child(3) > div {
-  background: #ffb501;
-}
-
-#root
-  > div
-  > div.food-delivery
-  > div.delivery-types
-  > div:nth-child(3)
-  > div
-  > button {
-  background: #161616;
-  color: #fcfcfc;
-}

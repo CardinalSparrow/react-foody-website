@@ -7,6 +7,9 @@ import BestFood from "./Components/BestFood/BestFood";
 import FoodDelivery from "./Components/FoodDelivery/FoodDelivery";
 import DoYouPrefer from "./Components/DoYouPrefer/DoYouPrefer";
 import TopDishes from "./Components/TopDishes/TopDishes";
+import FAQ from "./Components/FAQ/FAQ";
+import Feedback from "./Components/Feedback/Feedback";
+import AskQuestion from "./Components/AskAQuestion/AskQuestion";
 
 const App = () => {
   return (
@@ -19,6 +22,9 @@ const App = () => {
       <FoodDelivery />
       <DoYouPrefer />
       <TopDishes />
+      <FAQ />
+      <Feedback />
+      <AskQuestion />
     </div>
   );
 };

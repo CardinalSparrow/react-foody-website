@@ -39,6 +39,7 @@ const FoodDelivery = () => {
         {delivery_data.map((type) => {
           return (
             <DeliveryType
+              key={type.type}
               type={type.type}
               price={type.price}
               description={type.description}

@@ -23,7 +23,7 @@ const BestFood = () => {
             <li>Lorem ipsum dolor sit amet Lorem, ipsum..</li>
             <li>Lorem ipsum dolor sit amet Lorem, ipsum..</li>
           </ul>
-          <button class="button">Contact Us</button>
+          <button className="button">Contact Us</button>
         </div>
         <div className="best-image">
           <img src={best_image} alt="" />

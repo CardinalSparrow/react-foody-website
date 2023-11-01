@@ -26,7 +26,7 @@ const About = () => {
             cum dolore, nihil voluptas. Ut alias quod sequi accusamus eos
             deserunt obcaecati qui veniam minima autem?
           </p>
-          <button class="button">Read More</button>
+          <button className="button">Read More</button>
         </div>
       </div>
     </div>

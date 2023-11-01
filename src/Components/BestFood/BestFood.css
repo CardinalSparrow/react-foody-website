@@ -52,6 +52,7 @@
 
 .best-text button:hover {
   background: transparent;
+  border: 2px solid #fcfcfc;
   /* color: #161616; */
 }
 

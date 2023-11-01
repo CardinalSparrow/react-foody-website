@@ -63,3 +63,29 @@
   color: #161616;
   border-radius: 0.5rem;
 }
+
+#root > div > div.food-delivery > div.delivery-types > div:nth-child(3) > div {
+  background: #ffb501;
+}
+
+#root
+  > div
+  > div.food-delivery
+  > div.delivery-types
+  > div:nth-child(3)
+  > div
+  > button {
+  background: #161616;
+  border: 2px solid #161616;
+  color: #fcfcfc;
+}
+#root
+  > div
+  > div.food-delivery
+  > div.delivery-types
+  > div:nth-child(3)
+  > div
+  > button:hover {
+  background: #fcfcfc;
+  color: #161616;
+}
