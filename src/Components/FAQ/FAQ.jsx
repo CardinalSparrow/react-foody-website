@@ -1,86 +1,36 @@
 import React from "react";
+import { useState } from "react";
+import { FAQ_data } from "../Assets/FAQ_data";
 import "./FAQ.css";
 import faq from "../Assets/FAQ .png";
+
+const Accordion = ({ question, answer }) => {
+  const [isActive, setIsActive] = useState(false);
+  return (
+    <div className="accordion-card">
+      <div className="question-header" onClick={() => setIsActive(!isActive)}>
+        <h4 className="question">
+          {question} {isActive && console.log("red")}
+        </h4>
+        <p className="icon">{isActive ? "-" : ">"}</p>
+      </div>
+      <div className="answer">
+        {isActive && <p className="card-info">{answer}</p>}
+      </div>
+    </div>
+  );
+};
 const FAQ = () => {
   return (
     <div className="faq">
       <div className="faq-text-and-image">
         <div className="faq-text">
           <h1>Frequently Asked Questions</h1>
-          <div className="questions-and-answers">
-            <div className="question-group question1-and-answer">
-              <div className="question">
-                <h3>How to order a Pizza?</h3>
-                <p>&gt;</p>
-              </div>
-              <div className="answer">
-                <h3>How to order a Pizza?</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis quia neque in perspiciatis possimus voluptatem
-                  delectus veniam consequatur. Ducimus ullam omnis illo dolores
-                  doloribus iste voluptates. Temporibus, libero. Quae aliquam
-                  rem quos similique dolorum totam officia labore, pariatur, cum
-                  sit suscipit id deserunt, molestias repellendus. Ad cum
-                  repudiandae quo architecto!
-                </p>
-              </div>
-            </div>
-            <div className="question-group question2-and-answer">
-              <div className="question">
-                <h3>What does different deliveries mean?</h3>
-                <p>&gt;</p>
-              </div>
-              <div className="answer">
-                <h3>What does different deliveries mean?</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis quia neque in perspiciatis possimus voluptatem
-                  delectus veniam consequatur. Ducimus ullam omnis illo dolores
-                  doloribus iste voluptates. Temporibus, libero. Quae aliquam
-                  rem quos similique dolorum totam officia labore, pariatur, cum
-                  sit suscipit id deserunt, molestias repellendus. Ad cum
-                  repudiandae quo architecto!
-                </p>
-              </div>
-            </div>
-            <div className="question-group question3-and-answer">
-              <div className="question">
-                <h3>When do you work?</h3>
-                <p>&gt;</p>
-              </div>
-              <div className="answer">
-                <h3>When do you work?</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis quia neque in perspiciatis possimus voluptatem
-                  delectus veniam consequatur. Ducimus ullam omnis illo dolores
-                  doloribus iste voluptates. Temporibus, libero. Quae aliquam
-                  rem quos similique dolorum totam officia labore, pariatur, cum
-                  sit suscipit id deserunt, molestias repellendus. Ad cum
-                  repudiandae quo architecto!
-                </p>
-              </div>
-            </div>
-            <div className="question-group question4-and-answer">
-              <div className="question">
-                <h3>How many dishes do you have?</h3>
-                <p>&gt;</p>
-              </div>
-              <div className="answer">
-                <h3>How many dishes do you have?</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis quia neque in perspiciatis possimus voluptatem
-                  delectus veniam consequatur. Ducimus ullam omnis illo dolores
-                  doloribus iste voluptates. Temporibus, libero. Quae aliquam
-                  rem quos similique dolorum totam officia labore, pariatur, cum
-                  sit suscipit id deserunt, molestias repellendus. Ad cum
-                  repudiandae quo architecto!
-                </p>
-              </div>
-            </div>
-          </div>
+          {FAQ_data.map(({ question, answer }) => {
+            return (
+              <Accordion key={question} question={question} answer={answer} />
+            );
+          })}
         </div>
         <div className="faq-image">
           <img src={faq} alt="" />

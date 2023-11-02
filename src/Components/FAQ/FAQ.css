@@ -8,53 +8,46 @@
   padding: 20px 0;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  /* gap: 10px; */
 }
 
 .faq-text {
-  width: 400px;
+  width: 450px;
 }
-
 .faq-text h1 {
-  margin-bottom: 30px;
+  padding: 0 20px;
 }
 
-.questions-and-answers {
-  padding: 10px 0;
-}
-
-.question-group {
-  margin: 20px 0;
-  border: 2px solid grey;
-  border-radius: 10px;
-}
-.question {
-  padding: 20px;
-  border: 2px solid grey;
-  border-radius: 10px;
+.question-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 10px;
   cursor: pointer;
 }
-.question p {
+
+.accordion-card {
+  padding: 10px 0;
+  border: 2px solid grey;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.icon {
   font-weight: 800;
 }
 
 .answer {
-  padding: 20px;
-  display: none;
+  padding: 0 20px;
 }
 
-.answer h3 {
-  color: #a9031e;
-  margin: 10px 0;
-}
 .newsletter {
   display: flex;
   justify-self: center;
   justify-content: space-between;
   background: #ffb501;
-  margin: 0px 300px;
+  margin: 0px 220px;
   padding: 15px 20px;
 }
 
