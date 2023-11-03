@@ -44,7 +44,9 @@
   gap: 3px;
   cursor: pointer;
 }
-
+.nav-menu li:hover {
+  color: #ffb501;
+}
 .nav-menu hr {
   border: none;
   width: 80%;
@@ -85,6 +87,11 @@
   justify-content: space-between;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
+}
+.fast-delivery p:hover,
+.fast-delivery img:hover {
+  color: #ffb501;
 }
 
 .fast-delivery p {

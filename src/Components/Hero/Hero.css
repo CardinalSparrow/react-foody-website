@@ -1,5 +1,6 @@
 .hero {
   background: #a9031e;
+  padding: 100px 80px;
 }
 
 .hero-text-image {
@@ -53,7 +54,7 @@
 .hero-small {
   display: flex;
   position: absolute;
-  bottom: -5px;
+  bottom: -40px;
   justify-content: space-around;
   max-width: 300px;
   margin-left: 50px;

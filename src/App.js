@@ -10,6 +10,7 @@ import TopDishes from "./Components/TopDishes/TopDishes";
 import FAQ from "./Components/FAQ/FAQ";
 import Feedback from "./Components/Feedback/Feedback";
 import AskQuestion from "./Components/AskAQuestion/AskQuestion";
+import Footer from "./Components/Footer/Footer";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <FAQ />
       <Feedback />
       <AskQuestion />
+      <Footer />
     </div>
   );
 };

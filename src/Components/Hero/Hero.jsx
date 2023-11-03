@@ -4,7 +4,7 @@ import hero from "../Assets/logo.png";
 import hero_small from "../Assets/logo.png";
 const Hero = () => {
   return (
-    <div className="hero section">
+    <div className="hero">
       <div className="hero-text-image">
         <div className="hero-text">
           <h1>
