@@ -1,75 +1,75 @@
-import Dish1 from './Dish.png'
-import Dish2 from './Dish.png'
-import Dish3 from './Dish.png'
-import Dish4 from './Dish.png'
-import Dish5 from './Dish.png'
-import Dish6 from './Dish.png'
-import Dish7 from './Dish.png'
-import Dish8 from './Dish.png'
+import Dish from './Dish.png'
+import Dish1 from './Dish 1.png'
+import Dish2 from './Dish 2.png'
+import Dish3 from './Dish 3.png'
+import Dish4 from './Dish 4.png'
+import Dish5 from './Dish 5.png'
+import Dish6 from './Dish 6.png'
+import Dish7 from './Dish 7.png'
+import Dish8 from './Dish 8.png'
 import Dish9 from './Dish.png'
-import Dish10 from './Dish.png'
 
 
 let data_food =[
     {
         id:1,
-        name:"Meat",
+        name:"Meat Dream",
+        image:Dish,
+        price:21.99,
+    },
+    {
+        id:1,
+        name:"Cheese",
         image:Dish1,
-        price:50.00,
+        price:19.01,
     },
     {
         id:2,
-        name:"Meat",
+        name:"Pumpkin Soup",
         image:Dish2,
-        price:50.00,
+        price:12.99,
     },
     {
         id:3,
-        name:"Meat",
+        name:"Olivia",
         image:Dish3,
-        price:50.00,
+        price:19.99,
     },
     {
         id:4,
-        name:"Meat",
+        name:"Nautical Soup",
         image:Dish4,
-        price:50.00,
+        price:14.02,
     },
     {
         id:5,
-        name:"Meat",
+        name:"Cheese Cake",
         image:Dish5,
-        price:50.00,
+        price:11.99,
     },
     {
         id:6,
-        name:"Meat",
+        name:"Mushroom Soup",
         image:Dish6,
-        price:50.00,
+        price:13.99,
     },
     {
         id:7,
-        name:"Meat",
+        name:"BBQ Pepperoni",
         image:Dish7,
-        price:50.00,
+        price:23.99,
     },
     {
         id:8,
         name:"Meat",
         image:Dish8,
-        price:50.00,
+        price:17.05,
     },
     {
         id:9,
-        name:"Meat",
+        name:"Fish",
         image:Dish9,
-        price:50.00,
-    },
-    {
-        id:10,
-        name:"Meat",
-        image:Dish10,
-        price:50.00,
+        price:15.04,
     },
 ];
 
