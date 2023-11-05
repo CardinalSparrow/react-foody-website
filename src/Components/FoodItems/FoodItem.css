@@ -40,3 +40,10 @@
   color: #fcfcfc;
   border-radius: 0.5rem;
 }
+
+@media (max-width: 768px) {
+  .food-item {
+    padding: 20px;
+    margin: 10px 10px;
+  }
+}

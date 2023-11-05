@@ -1,11 +1,10 @@
 .footer {
   background: #161616;
-  padding: 20px 80px;
-  padding-top: 40px;
+  padding: 10px 80px;
 }
 .footer-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 50px;
 }
 .footer-logo-and-quote {
@@ -79,11 +78,26 @@
   cursor: pointer;
 }
 .phone-number {
-  padding-top: 30px;
+  padding-top: 20px;
   color: #f1ecec;
 }
 .copyright {
   color: #f4f4f4;
-  padding-top: 30px;
+  padding-top: 20px;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .footer-quote {
+    line-height: 20px;
+    letter-spacing: 1px;
+    /* font-weight: 400; */
+  }
+  .footer-menu {
+    display: block;
+    padding: 0 20px;
+  }
+  .footer-menu li {
+    padding: 5px;
+  }
 }

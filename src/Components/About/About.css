@@ -1,5 +1,7 @@
 .about {
   background: #fcfcfc;
+  padding: 100px 80px;
+  /* width: 100%; */
 }
 .about-text-image {
   display: flex;
@@ -56,4 +58,13 @@
 .about .button:hover {
   background: transparent;
   color: #a9031e;
+}
+
+@media (max-width: 768px) {
+  .about-text-image {
+    display: block;
+  }
+  .about-text {
+    max-width: 600px;
+  }
 }

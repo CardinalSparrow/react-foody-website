@@ -38,3 +38,13 @@
   color: #161616;
   border-radius: 0.5rem;
 }
+
+@media (max-width: 768px) {
+  .popular-dish {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px;
+  }
+  .popular-dishes {
+    padding: 50px 30px;
+  }
+}

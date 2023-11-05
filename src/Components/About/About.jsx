@@ -5,7 +5,7 @@ import chef_2 from "../Assets/chef2.png";
 import chef from "../Assets/chef.png";
 const About = () => {
   return (
-    <div className="about section">
+    <div className="about">
       <div className="about-text-image">
         <div className="about-images">
           <div className="small-img">

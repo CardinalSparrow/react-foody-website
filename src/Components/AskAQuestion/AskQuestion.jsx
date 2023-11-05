@@ -14,9 +14,7 @@ const AskQuestion = () => {
           <input type="text" placeholder="Name" />
           <input type="email" placeholder="Email" />
           <br />
-          <textarea name="Message" id="" cols="45" rows="10">
-            Message
-          </textarea>
+          <textarea id="" cols="45" rows="10" defaultValue="Message"></textarea>
           <br />
           <button>Send A Message</button>
         </div>

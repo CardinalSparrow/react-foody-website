@@ -5,7 +5,7 @@
 .image-and-form {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 30px;
 }
 
 .image-and-form h1 {
@@ -54,4 +54,10 @@
   background: #fcfcfc;
   color: #161616;
   border-radius: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .ask-question img {
+    width: 250px;
+  }
 }

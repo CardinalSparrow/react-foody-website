@@ -98,3 +98,9 @@
   color: #f4f4f4;
   font-weight: 500;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+}

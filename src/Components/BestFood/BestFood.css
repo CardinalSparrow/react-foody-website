@@ -60,3 +60,13 @@
   width: 500px;
   margin-top: 50px;
 }
+
+@media (max-width: 768px) {
+  .best-food {
+    padding: 50px 40px;
+  }
+  .best-image img {
+    width: 250px;
+    margin-top: 150px;
+  }
+}
