@@ -38,3 +38,12 @@
 .feedback span {
   color: #ffb501;
 }
+
+@media (max-width: 425px) {
+  .customer-feedback {
+    display: block;
+  }
+  .customer {
+    margin-bottom: 25px;
+  }
+}

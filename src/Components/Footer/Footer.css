@@ -101,3 +101,20 @@
     padding: 5px;
   }
 }
+@media (max-width: 425px) {
+  .footer {
+    padding: 10px 20px;
+  }
+  .footer-quote {
+    line-height: 20px;
+    letter-spacing: 1px;
+    /* font-weight: 400; */
+  }
+  .footer-menu {
+    display: block;
+    padding: 0 20px;
+  }
+  .footer-menu li {
+    padding: 5px;
+  }
+}

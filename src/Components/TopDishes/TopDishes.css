@@ -1,6 +1,6 @@
 .top-d {
   background: #fcfcfc;
-  padding: 50px 0;
+  padding: 40px 0;
 }
 
 .top-d h1 {
@@ -9,7 +9,7 @@
 .top-dishes {
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .dish {
@@ -46,4 +46,11 @@
   color: #fcfcfc;
   background: #a9031e;
   border: 2px solid #a9031e;
+}
+@media (max-width: 425px) {
+  .dish {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+  }
 }

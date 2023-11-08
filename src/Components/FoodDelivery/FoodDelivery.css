@@ -49,3 +49,30 @@
   justify-content: center;
   margin-top: 50px;
 }
+@media (max-width: 425px) {
+  .delivery-and-food {
+    display: block;
+  }
+  .food-delivery {
+    padding: 10px;
+  }
+  .delivery-and-food {
+    padding-left: 10px;
+  }
+  .delivery-types {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 320px) {
+  .delivery-and-food {
+    padding-left: 10px;
+  }
+  .delivery-types {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+    /* padding: ; */
+  }
+}

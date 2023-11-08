@@ -64,9 +64,43 @@
 @media (max-width: 768px) {
   .best-food {
     padding: 50px 40px;
+    display: block;
+    justify-content: center;
+    position: relative;
+  }
+  .best-text-image {
+    padding-top: 200px;
+  }
+  .best-image {
+    position: absolute;
+    top: -120px;
+    /* margin-bottom: 20px; */
   }
   .best-image img {
     width: 250px;
     margin-top: 150px;
+  }
+}
+@media (max-width: 425px) {
+  .best-image img {
+    width: 250px;
+    margin-top: 150px;
+  }
+  .best-food {
+    padding: 50px 30px;
+    display: block;
+    justify-content: center;
+    position: relative;
+  }
+  .best-text-image {
+    padding-top: 200px;
+  }
+  .best-text h1 {
+    font-size: 50px;
+  }
+  .best-image {
+    position: absolute;
+    top: -120px;
+    /* margin-bottom: 20px; */
   }
 }

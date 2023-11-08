@@ -14,8 +14,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   margin-top: 50px;
-  /* gap: 1rem; */
-  /* justify-content: space-between; */
 }
 
 .all-button {
@@ -29,7 +27,7 @@
   color: #161616;
   border-radius: 0.5rem;
   border: 2px solid #ffb501;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .all-button:hover {
   display: inline-block;
@@ -47,4 +45,22 @@
   .popular-dishes {
     padding: 50px 30px;
   }
+}
+@media (max-width: 425px) {
+  .popular-dish {
+    grid-template-columns: 1fr 1fr;
+    padding: 8px;
+  }
+  .popular-dishes {
+    padding: 10px 10px;
+  }
+}
+@media (max-width: 320px) {
+  .popular-dish {
+    grid-template-columns: 1fr;
+    padding: 8px;
+  }
+  /* .popular-dishes {
+    padding: 25px 30px;
+  } */
 }

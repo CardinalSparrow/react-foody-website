@@ -67,3 +67,17 @@
   margin-left: 70px;
   cursor: pointer;
 }
+@media (max-width: 425px) {
+  .prefer-image-text {
+    display: block;
+    /* justify-content: center; */
+    gap: 0px;
+  }
+  .prefer-image img {
+    width: 70%;
+  }
+  .do-you-prefer {
+    padding: 0 20px;
+    padding-top: 150px;
+  }
+}

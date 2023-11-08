@@ -48,14 +48,6 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="email-and-number">
-          <div className="email-and-p">
-            <input type="email" placeholder="Email" />
-            <p>&gt;</p>
-          </div>
-
-          <h4 className="phone-number">+234 812 234 5676</h4>
-        </div>
       </div>
       <p className="copyright">
         Copyright &copy;2023 Foody. All rights reserved.

@@ -1,4 +1,4 @@
-import Dish from './Dish.png'
+// import Dish from './Dish.png'
 import Dish1 from './Dish 1.png'
 import Dish2 from './Dish 2.png'
 import Dish3 from './Dish 3.png'
@@ -14,7 +14,7 @@ let data_food =[
     {
         id:1,
         name:"Meat Dream",
-        image:Dish,
+        image:Dish8,
         price:21.99,
     },
     {
