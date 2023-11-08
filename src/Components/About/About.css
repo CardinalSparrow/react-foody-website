@@ -81,11 +81,11 @@
   }
   .about-text h1 {
     font-size: 40px;
-    width: 400px;
+    max-width: 400px;
   }
   .about-images {
-    /* display: flex; */
     padding-left: 0px;
+    justify-content: center;
     margin-right: 0px;
     padding-bottom: 20px;
   }

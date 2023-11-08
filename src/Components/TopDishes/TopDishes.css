@@ -54,3 +54,8 @@
     gap: 0px;
   }
 }
+@media (max-width: 320px) {
+  .dish {
+    grid-template-columns: 1fr;
+  }
+}

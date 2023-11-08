@@ -76,8 +76,20 @@
   .prefer-image img {
     width: 70%;
   }
+  .prefer-text h3 {
+    padding-left: 120px;
+    margin: 20px 0;
+  }
   .do-you-prefer {
     padding: 0 20px;
     padding-top: 150px;
+  }
+}
+@media (max-width: 320px) {
+  .prefer-text .video {
+    padding: 5px;
+  }
+  .prefer-text .contact {
+    margin-left: 30px;
   }
 }
