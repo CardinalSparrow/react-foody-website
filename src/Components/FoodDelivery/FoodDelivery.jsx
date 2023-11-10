@@ -1,8 +1,8 @@
 import React from "react";
 import "./FoodDelivery.css";
 import pizza from "../Assets/Dish.png";
-import soup from "../Assets/Dish.png";
-import dessert from "../Assets/Dish.png";
+import soup from "../Assets/Dish 3.png";
+import dessert from "../Assets/Dish 5.png";
 import delivery_data from "../Assets/delivery_data";
 import DeliveryType from "../DeliveryType/DeliveryType";
 

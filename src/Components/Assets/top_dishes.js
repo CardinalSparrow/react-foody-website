@@ -1,6 +1,6 @@
-import Dish1 from './Dish.png'
-import Dish2 from './Dish.png'
-import Dish3 from './Dish.png'
+import Dish1 from './Dish 3.png'
+import Dish2 from './Dish 7.png'
+import Dish3 from './Dish 8.png'
 
 
 
