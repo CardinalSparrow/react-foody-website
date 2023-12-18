@@ -3,16 +3,26 @@ import "./Navbar.css";
 import logo from "../Assets/logo.png";
 import cart_icon from "../Assets/cart_icon.png";
 import delivery_icon from "../Assets/arrow.png";
+import burger_icon from "../Assets/burger_icon.png";
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false); // State for mobile menu
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
+  };
   return (
     <div className="navbar">
       <div className="nav-logo">
         <img src={logo} alt="" />
         <p>FOODY</p>
       </div>
+      {/* Burger icon for mobile */}
+      <div className="burger-icon" onClick={toggleMobileMenu}>
+        <img id="burger" src={burger_icon} alt="Burger Icon" />
+      </div>
 
-      <ul className="nav-menu">
+      <ul className={`nav-menu ${mobileMenuOpen ? "mobile-menu-open" : ""}`}>
         <li
           onClick={() => {
             setMenu("home");

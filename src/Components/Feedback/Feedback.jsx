@@ -4,19 +4,19 @@ import "./Feedback.css";
 const Customers = [
   {
     name: "Rhiana Miller",
-    star: "*****",
+    star: "⭐⭐⭐⭐⭐",
     comment:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa tempore, deserunt repellendus ea tenetur mollitia fuga distinctio laborum adipisci rem.",
   },
   {
     name: "Ade Emmanuel",
-    star: "*****",
+    star: "⭐⭐⭐⭐⭐",
     comment:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa tempore, deserunt repellendus ea tenetur mollitia fuga distinctio laborum adipisci rem.",
   },
   {
     name: "Eze Bawa",
-    star: "*****",
+    star: "⭐⭐⭐⭐⭐",
     comment:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa tempore, deserunt repellendus ea tenetur mollitia fuga distinctio laborum adipisci rem.",
   },
