@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 import "./Navbar.css";
 import logo from "../Assets/logo.png";
 import cart_icon from "../Assets/cart_icon.png";
@@ -23,19 +24,29 @@ const Navbar = () => {
       </div>
 
       <ul className={`nav-menu ${mobileMenuOpen ? "mobile-menu-open" : ""}`}>
-        <li
-          onClick={() => {
-            setMenu("home");
-          }}
-        >
-          Home {menu === "home" && <hr />}
+        <li>
+          <Link
+            to="hero"
+            spy={true}
+            smooth={true}
+            offset={-70} // Adjust the offset as needed to accommodate fixed navbar height
+            duration={500}
+            onClick={() => setMenu("home")}
+          >
+            Home {menu === "home" && <hr />}
+          </Link>
         </li>
-        <li
-          onClick={() => {
-            setMenu("about");
-          }}
-        >
-          About{menu === "about" && <hr />}
+        <li>
+          <Link
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70} // Adjust the offset as needed to accommodate fixed navbar height
+            duration={500}
+            onClick={() => setMenu("about")}
+          >
+            About {menu === "about" && <hr />}
+          </Link>
         </li>
         <li
           onClick={() => {
