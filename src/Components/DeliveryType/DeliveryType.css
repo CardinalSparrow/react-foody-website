@@ -92,7 +92,7 @@
 
 @media (max-width: 425px) {
   .delivery-type {
-    width: 180px;
+    /* width: 180px; */
     padding: 20px 10px;
     margin: 20px 0px;
     border-radius: 8px;

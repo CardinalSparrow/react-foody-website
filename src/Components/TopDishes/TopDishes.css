@@ -50,12 +50,7 @@
 @media (max-width: 425px) {
   .dish {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0px;
-  }
-}
-@media (max-width: 320px) {
-  .dish {
     grid-template-columns: 1fr;
+    /* gap: 0px; */
   }
 }
