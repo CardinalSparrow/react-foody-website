@@ -3,7 +3,6 @@ import { Link } from "react-scroll";
 import "./Navbar.css";
 import logo from "../Assets/logo.png";
 import cart_icon from "../Assets/cart_icon.png";
-import delivery_icon from "../Assets/arrow.png";
 import burger_icon from "../Assets/burger_icon.png";
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
@@ -20,10 +19,10 @@ const Navbar = () => {
       </div>
       {/* Burger icon for mobile */}
       <div className="burger-icon" onClick={toggleMobileMenu}>
-        <img id="burger" src={burger_icon} alt="Burger Icon" />
+        <img src={burger_icon} alt="Burger Icon" />
       </div>
 
-      <ul className={`nav-menu ${mobileMenuOpen ? "mobile-menu-open" : ""}`}>
+      <ul className={`nav-menu ${mobileMenuOpen && "mobile-menu-open"}`}>
         <li>
           <Link
             to="hero"
@@ -48,28 +47,34 @@ const Navbar = () => {
             About {menu === "about" && <hr />}
           </Link>
         </li>
-        <li
-          onClick={() => {
-            setMenu("menu");
-          }}
-        >
-          Menu{menu === "menu" && <hr />}
+        <li>
+          <Link
+            to="popular-dishes"
+            spy={true}
+            smooth={true}
+            offset={-70} // Adjust the offset as needed to accommodate fixed navbar height
+            duration={500}
+            onClick={() => setMenu("menu")}
+          >
+            Menu {menu === "menu" && <hr />}
+          </Link>
         </li>
-        <li
-          onClick={() => {
-            setMenu("contact");
-          }}
-        >
-          Contact{menu === "contact" && <hr />}
+        <li>
+          <Link
+            to="ask-question"
+            spy={true}
+            smooth={true}
+            offset={-70} // Adjust the offset as needed to accommodate fixed navbar height
+            duration={500}
+            onClick={() => setMenu("contact")}
+          >
+            Contact {menu === "contact" && <hr />}
+          </Link>
         </li>
       </ul>
       <div className="nav-cart-delivery">
         <img src={cart_icon} alt="" />
         <div className="nav-cart-count">0</div>
-        <div className="fast-delivery">
-          <p>Fast Delivery</p>
-          <img src={delivery_icon} alt="" />
-        </div>
       </div>
     </div>
   );

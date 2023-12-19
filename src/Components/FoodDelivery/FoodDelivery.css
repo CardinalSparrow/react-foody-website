@@ -59,8 +59,10 @@
     padding-left: 10px;
   }
   .delivery-types {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin-top: 50px;
   }
 }

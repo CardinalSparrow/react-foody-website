@@ -115,6 +115,7 @@
   .burger-icon {
     display: block;
     position: absolute;
+    cursor: pointer;
     top: 20px;
     right: 20px;
   }
@@ -126,7 +127,7 @@
     border-radius: 10px;
     top: 60px;
     right: 10px;
-    width: 50%;
+    width: 40%;
 
     background-color: rgba(244, 244, 244, 0.8);
 
@@ -145,5 +146,16 @@
 
   .nav-menu li hr {
     /* display: block; */
+  }
+  .nav-cart-delivery {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+  }
+}
+
+@media (max-width: 425px) {
+  .nav-logo p {
+    display: none;
   }
 }
